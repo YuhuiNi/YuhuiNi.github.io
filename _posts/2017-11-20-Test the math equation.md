@@ -9,6 +9,26 @@ $$x_i+y_i=z_i$$
 
 $$\sum x_i=s$$
 
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>x</td>
+<td>y</td>
+</tr>
+<tr>
+<td>c</td>
+<td>d</td>
+</tr>
+</tbody>
+</table>
+
 
 
 
