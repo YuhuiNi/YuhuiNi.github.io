@@ -9,13 +9,7 @@ $$x_i+y_i=z_i$$
 
 $$\sum x_i=s$$
 
-<table>
-<thead>
-<tr>
-<th>a</th>
-<th>b</th>
-</tr>
-</thead>
+<table width="400" border="0" cellspacing="1" cellpadding="0">
 
 <tbody>
 <tr>
