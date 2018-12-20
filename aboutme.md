@@ -3,32 +3,39 @@ layout: page
 title: About me
 ---
 
-My name is Pascal van Kooten. I like the following topics:
+My name is Yuhui Ni. I am currently a 2nd year master student at University of Chicago.
 
-- Blockchain / Eris / Ethereum / Solidity
-- Competitive Intelligence
-- Artificial Intelligence (DeepQN, DeepQA)
-- Natural Language Processing (nltk, spacy)
-- Virtualization (not **vis**ualization)
-- Web Scraping
+## Education
+###The University of Chicago &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 09/2017-03/2019
+
+- Master's degree Statistics 
+
+###Zhejiang Univeristy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 09/2013-06/2017
+
+- Bachelor's degree Statistics
+
+##Volunteer 
+- Served as volunteer in Hangzhou Library to allocate books and guided readers
+
+##Activity
+####Graduation Farewell Party, School of Mathematics at ZJU &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 06/2016
+- Took responsibilities for the arrangement of program rundown and rehearsal
+
+####Sports Meetings and Basketball Contest at ZJU &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/2014                      
+- Took responsibilities for whole organization of activities in school of mathematics, boosted advancement of every activity
+
+##Personal
+I am interested in the following topics.
+
+- Computer vision
 - Software development
-- Statistics (R)
+- Statistics Modeling(R,Python)
 - Data Mining
 - Machine Learning (scikit-learn)
-- Deep learning (tensorflow)
+- Data Analysis
+- Data visualiztion
+- Natural Language Processing
 
-Tools:
+Actively looking for Data scientist and Machine learning position.
 
-- Unix
-- Python
-- R
-- C++
-- Amazon EC2
-- Docker
-- Emacs
 
-Popular posts:
-
-- (Reddit, 510 upvotes) [You can use `whereami` to predict where you are indoors](https://www.reddit.com/r/Python/comments/54qto9/you_can_use_whereami_to_predict_where_you_are/)
-- (Reddit, 230 upvotes) [Finally it is now even easier to send emails in Python!](https://www.reddit.com/r/Python/comments/3gtps6/finally_it_is_now_even_easier_to_send_emails_in)
-- (Reddit, 200 upvotes) [AI challenge in 78 lines of Python (top 5% on Codingame)](https://www.reddit.com/r/Python/comments/52f50j/ai_challenge_in_78_lines_of_python_top_5_on/)
