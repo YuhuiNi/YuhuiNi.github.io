@@ -8,11 +8,11 @@ My name is Yuhui Ni. I am currently a 2nd year master student at University of C
 ## Education
 ### The University of Chicago &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 09/2017-03/2019
 
-- Master's degree Statistics 
+- Master's degree in Statistics 
 
 ### Zhejiang Univeristy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 09/2013-06/2017
 
-- Bachelor's degree Statistics
+- Bachelor's degree in Statistics
 
 ## Volunteer 
 - Served as volunteer in Hangzhou Library to allocate books and guided readers
@@ -35,6 +35,11 @@ I am interested in the following topics.
 - Data Analysis
 - Data visualiztion
 - Natural Language Processing
+- Big data tools
+
+*Programming Language*:Python/R/Matlab/SQL/Stata/C
+
+*Tools*:Mapreduce/Spark/Tableau/Mxnet/Tensorflow/Pytorch/Keras/Hadoop Framework/Microsoft Office
 
 Actively looking for Data scientist and Machine learning position.
 
