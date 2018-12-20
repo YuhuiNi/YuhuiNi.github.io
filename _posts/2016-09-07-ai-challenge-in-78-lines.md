@@ -5,6 +5,7 @@ title: AI challenge in 78 lines (top 5%)
 
 ## The challenge (Tron)
 
+$$x_i+y_i=z_i$$
 Tron is a multiplayer game in which 2-4 players play a snake-like game. Every step one makes, the board gets filled by one block. Whenever a player has nowhere to go, they lose. Last man standing.  See a video below of 4 bots in action on Codingame:
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/PNRNwxia0Z4" frameborder="0" allowfullscreen></iframe></p>
