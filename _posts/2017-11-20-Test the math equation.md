@@ -7,5 +7,10 @@ Test the math equation
 
 $$x_i+y_i=z_i$$
 
-$$\sumx_i=s$$
+$$\sum x_i=s$$
+|a|b|
+|----|----|
+|x_i|y_i|
+
+
 
