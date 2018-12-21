@@ -10,6 +10,7 @@ Algorithm Engineer Intern &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 - Conducted algorithms for key point detection on a hand and bone age prediction, based on deep learning combing Resnet50, FPN and focal loss, using Mxnet framework and achieved 97% accuracy
 
 - Modified the original auto testing algorithm in lung nodules comparing process to achieve better generalization and higher efficiency with 50% less time. This feature was wrapped up in company’s source package
+
 - Designed and implemented a new interface for CT (computed tomography) scan results, according to the requirements from hospital, and long-term negotiation with hospital representative
 
 ### [Zheshang Futures](https://www.cnzsqh.com/)
