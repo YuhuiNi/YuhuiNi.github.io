@@ -5,6 +5,7 @@ title: Projects
 
 ### The University of Chicago
 
+
 #### [Multiple testing and inference problems for Capital Bikeshare data](https://github.com/YuhuiNi/Multiple_testing) 
 
 - Participated in a group of four to implement multiple testing and inference problems for Capital Bikeshare data
@@ -25,9 +26,11 @@ title: Projects
 
 ### Zhejiang Unviersity
 
+
 #### Predicting prices of stocks
 
 - Propose an improved predicting time series model combing support vector machine (SVR) with Kernel principal component analysis (KPCA) based on group Lasso method, which greatly increases the accuracy of predicting prices of stocks.
+
 
 #### Research on the Implementation of Shanghai-Hong Kong Stock Connect to China Stock Market
 
