@@ -17,9 +17,9 @@ If X has full column rank, then \\(\beta\\) has a close form solution
 $$\beta=argmin_{\beta}||Y-X\beta||_2^2=(X^TX)^{-1}X^T Y$$
 
 
-However, if \\(rank(X)\leq p\\), we cannot get an analytical solution of \\(\beta\\). In general, there are two ways to solve this problem. 
+However, if \\(rank(X)<p\\), we cannot get an analytical solution of \\(\beta\\). In general, there are two ways to solve this problem. 
 
-* we can implement PCA on \\(X\\) and do linear regression.
+* we can implement PCA on \\(X\\) and then do linear regression.
 * we can add regularization term(\\(L1,L2\\)) on loss function.
 
 
@@ -67,9 +67,9 @@ $$
 ### 3.Ridge regression
 For ridge regression, our solution is
 
-$$\beta_{ridge}=\argmin_{\beta}||Y-X\beta||_2^2+\lambda||\beta||_2^2=(X^TX+\lambda I)^{-1}X^TY$$
+$$\beta_{ridge}=argmin_{\beta}||Y-X\beta||_2^2+\lambda||\beta||_2^2=(X^TX+\lambda I)^{-1}X^TY$$
 
-According
+According to
 $$Y_{ridge}=X\beta_{ridge}$$
 
 plug \\(\beta_{ridge}\\) and \\(X=U\Sigma V^T\\) into above equation, we have
