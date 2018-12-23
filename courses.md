@@ -15,6 +15,8 @@ List of selected courses I've taken at school or otherwise online
 
 - [SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/5c1f1e07cc9e4ef680653eb1da0f0655/Statement.pdf)
 
+- [Hadoop platform and application framework](https://github.com/YuhuiNi/hadoop-platform-and-application-framework)
+
 ## University of Chicago
 ### Second Year
 
