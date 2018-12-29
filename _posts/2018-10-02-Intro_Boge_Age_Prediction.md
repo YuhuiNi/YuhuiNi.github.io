@@ -15,7 +15,8 @@ In this article, I'd like to give a brief introduction of my bone age prediction
 
 **Main idea**: Residual reflects that the neural network learns the difference rather than the absolute mapping. By learning the mapping relative to the original deviation, i.e. the difference from the identity part, it's easier for deep network to learn parameters. The existence of shortcut connection also effectively avoids gradient vanishing in backpropagation.
 
-![resnet picture](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/resnet1.png)
+<img src=https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/resnet1.png
+ width="400px" align=center />
 
 **Basic structure**
 
@@ -23,7 +24,8 @@ Resnet consits of two basic units:
 
 Default backbone network of our bone age prediction algorithm is resnet50, which uses basic unit in right hand side. We can change the number of channels via 1x1 conv layer. The stride of first 3x3 conv layer is 2(so as first shortcut layer) while stride of remaining 3x3 conv layer is 1.
 
-![network_strcture](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/network_structure.png)
+<img src=https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/network_structure.png
+ width="600px" align=center />
 
 
 #### 2.FPN
@@ -50,7 +52,8 @@ In our bone age predict algorithm, we use the default setting \\(\gamma=2\\). Wi
 
 **2.key point location prediction**
 
-![keypoint](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/boneage_predict.png)
+<img src=https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/boneage_predict.png
+ width="660px" align=center />
 
 In our original dataset, every hand has 13 key points. Then we construct a small region and a large region whose centroids are key point. We can obtain a point location map by setting all values in small regions to be 1 and other to be 0. At the same time, we can obtain a region location map by repeating same process for large regions. 
 
@@ -65,7 +68,8 @@ This algorithm has another part to ensure we predict 13 key points as a whole. U
 
 #### 4.Prediction of bone age score
 
-![score_predict](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/score%20diagram.png)
+<img src=https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/score%20diagram.png
+ width="660px" align=center />
 
 Similar to **Part 3**, we first obtain a **9\*512\*512** layer. Takes the max value along channel and we get a predicted score degree and L1 loss(compared with true label). At the same time, we choose the predicted layer corresponding to true label(for example, we choose 5th layer if true label is 5) and combine it with point location map to compute focal loss.
 
