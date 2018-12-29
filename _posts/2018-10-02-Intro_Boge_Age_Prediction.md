@@ -22,14 +22,14 @@ Resnet consits of two basic units:
 
 Default backbone network of our bone age prediction algorithm is resnet50, which uses basic unit in right hand side. We can change the number of channels via 1x1 conv layer. The stride of first 3x3 conv layer is 2(so as first shortcut layer) while stride of remaining 3x3 conv layer is 1.
 
-![fpn](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/network_structure.png){:.center-image,width="600"}
+![fpn](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/network_structure.png){:.center-image, width="600"}
 
 
 #### 2.FPN
 
 Feature pyramind network's inputs are feature maps of bottleneck in Resnet. Every feature map is added to next level feature map after up sampling from top to bottom and thus each layer has different resolution and semantic features. Thus, different feature layer can be used to detect objects with different sizes. At the same time, FPN is just like putting additional connections on original Resnet, so it does not cost extra time and computation in practice.
 
-![fpn](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/Resnet%2Bfpn.png){:.center-image,width="600"}
+![fpn](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/Resnet%2Bfpn.png){:.center-image, width="600"}
 
 We notice that the size of ground truth in our task is fixed, so we only predict location and score on finest level feature map(i.e. the bottom layer), which is different from original FPN.
 
@@ -39,18 +39,18 @@ We notice that the size of ground truth in our task is fixed, so we only predict
 
 I'd like to talk about focal loss first.
 
-![focal loss](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/focal_loss.png){:.center-image,width="450"}
+![focal loss](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/focal_loss.png){:.center-image, width="450"}
 
 The author proposes a novel loss function,Focal Loss, which is achieved by adding a factor \\((1-p_t)^{\gamma}\\) to the standard cross entropy criterion. Setting \\(\gamma >0 \\)reduces the relative loss for well-classified examples (\\(p_t>.5\\)), putting more focus on hard, misclassified examples.
 
 In our bone age predict algorithm, we use the default setting \\(\gamma=2\\). With this, FL can effectively discount the effect of easy negatives, focusing all attention on the hard negative examples.
 
-![fc_plot](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/fc_plot.png){:.center-image,width="500"}
+![fc_plot](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/fc_plot.png){:.center-image, width="500"}
 
 **2.key point location prediction**
 
 
-![location](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/boneage_predict.png){:.center-image,width="660"}
+![location](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/boneage_predict.png){:.center-image, width="660"}
 
 In our original dataset, every hand has 13 key points. Then we construct a small region and a large region whose centroids are key point. We can obtain a point location map by setting all values in small regions to be 1 and other to be 0. At the same time, we can obtain a region location map by repeating same process for large regions. 
 
