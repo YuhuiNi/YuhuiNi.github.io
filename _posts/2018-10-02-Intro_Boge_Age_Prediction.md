@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intern at Infervision: Intro to Bone age Prediction Algorithm 
+title: Intern at Infervision
 ---
 
 
