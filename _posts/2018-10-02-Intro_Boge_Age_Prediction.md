@@ -14,7 +14,7 @@ In this article, I'd like to give a brief introduction of my bone age prediction
 
 **Main idea**: Residual reflects that the neural network learns the difference rather than the absolute mapping. By learning the mapping relative to the original deviation, i.e. the difference from the identity part, it's easier for deep network to learn parameters. The existence of shortcut connection also effectively avoids gradient vanishing in backpropagation.
 
-![resnet](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/resnet1.png){:.center-image, width="450"}
+![resnet](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/resnet1.png){:.center-image width="450"}
 
 **Basic structure**
 
