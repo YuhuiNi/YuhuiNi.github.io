@@ -17,6 +17,11 @@ List of selected courses I've taken at school or otherwise online
 
 - [Hadoop platform and application framework](https://github.com/YuhuiNi/hadoop-platform-and-application-framework)
 
+- [Big Data Integration and Processing](https://github.com/YuhuiNi/Big-Data-Integration-and-Processing)
+
+- [Natural Language Processing](https://github.com/YuhuiNi/Natural-Language-Processing-with-Deep-Learning)
+
+
 ## University of Chicago
 ### Second Year
 
