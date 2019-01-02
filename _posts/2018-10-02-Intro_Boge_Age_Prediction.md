@@ -5,7 +5,7 @@ title: Intro to Bone Age Prediction Algorithm(Intern at Infervision)
 
 In this article, I'd like to give a brief introduction of my bone age prediction algorithm at Infervision. Specially, the algorithm mainly consists of four parts:
 
-* Resnet. The goal of the algorithm is similar to other object detection algorithms, so it uses state-of-the-art backbone newwork, i.e. Resnet to extract the feature map of orginal image and takes that as an input to the following feature pyramid network(FPN) and bone age key points prediction.
+* Resnet. The goal of the algorithm is similar to other object detection algorithms, so it uses state-of-the-art backbone network, i.e. Resnet to extract the feature map of orginal image and takes that as an input to the following feature pyramid network(FPN) and bone age key points prediction.
 * FPN(feature pyramid network). This part accepts different feature maps of bottleneck of Resnet and then forms a feature pyramid. Instead of predicting result at every level, we only predict at finest level and uses that as input of location predict and score prediction.
 * Prediction of bone age key point location. After we have the convolution layer of FPN, we use focal loss function instead of traditional cross entropy loss function at last layer, which achieves a better result.
 * Prediction of bone age score. The inputs of this part are final convolution layers in FPN and two Fully connected layers in last two bottleneck feature maps of Resnet and we also use focal loss as our loss function.
@@ -52,6 +52,9 @@ In our bone age predict algorithm, we use the default setting \\(\gamma=2\\). Wi
 
 ![location](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/boneage_predict.png){:width="660"}
 
+
+[Note:original image source](https://github.com/YuhuiNi/YuhuiNi.github.io/blob/master/img/boneage_predict.png)
+
 In our original dataset, every hand has 13 key points. Then we construct a small region and a large region whose centroids are key point. We can obtain a point location map by setting all values in small regions to be 1 and other to be 0. At the same time, we can obtain a region location map by repeating same process for large regions. 
 
 Why we want to construct point map and region map? There are two reasons:
@@ -66,6 +69,8 @@ This algorithm has another part to ensure we predict 13 key points as a whole. U
 #### 4.Prediction of bone age score
 
 ![location](https://github.com/YuhuiNi/YuhuiNi.github.io/raw/master/img/score%20diagram.png){:width="660"}
+
+[Note:original image source](https://github.com/YuhuiNi/YuhuiNi.github.io/blob/master/img/score%20diagram.png)
 
 Similar to **Part 3**, we first obtain a **9\*512\*512** layer. Takes the max value along channel and we get a predicted score degree and L1 loss(compared with true label). At the same time, we choose the predicted layer corresponding to true label(for example, we choose 5th layer if true label is 5) and combine it with point location map to compute focal loss.
 
