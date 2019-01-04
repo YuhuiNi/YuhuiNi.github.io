@@ -96,3 +96,7 @@ When we put these two equaitons together, we can see their relationship clearly.
 
 Therefore, ridge regression is a soft PCA regression in fact. They both intend to solve the multi-collinearity in order to improve the model fittness.
 
+### Reference
+
+1.[The Elements of 
+Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
