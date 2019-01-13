@@ -5,9 +5,14 @@ title: Projects
 
 ### The University of Chicago
 
+#### [GStore customer revenue prediction]()
+
+- Conducted exploratory data analysis, feature engineering and made inference along the way.- Predicted the natural log of the sum of all transactions per user using light gbm and xgboost and achieved 1.42 RMSE on test data
+
+
 #### [Exploration of External Memory in Variational Auto-Encoder](https://github.com/YuhuiNi/Exploration-of-External-Memory-in-Variational-Auto-Encoder)
 
-- Proposed a VAE based model that has an memory matrix as in VQ-VAE, but with soft and differentiable extraction operation and achieved comparable results with faster convergence rate.
+- Proposed a VAE based model that has an memory matrix as in VQ-VAE, but with soft and differentiable extraction operation andachieved comparable results with faster convergence rate.- Implemented the new model with different frameworks(Pytorch and Tensorflow) on local machine as well as Google Colab andexplored system related problem
 
 
 #### [Multiple testing and inference problems for Capital Bikeshare data](https://github.com/YuhuiNi/Multiple_testing) 
@@ -31,9 +36,11 @@ title: Projects
 ### Zhejiang Unviersity
 
 
-#### Predicting prices of stocks
+#### Predicting price of stocks using improved KPCA and SVM
 
-- Proposed an improved predicting time series model combing support vector machine (SVR) with Kernel principal component analysis (KPCA) based on group Lasso method, which greatly increases the accuracy of predicting prices of stocks.
+-  Conducted predicting algorithm using support vector machine(SVM) combined with PCA, KPCA, Isomap feature extraction
+
+- Proposed a new method to apply group lasso before KPCA and achieved comparable NMSE with 20% less time.
 
 
 #### Research on the Implementation of Shanghai-Hong Kong Stock Connect to China Stock Market
