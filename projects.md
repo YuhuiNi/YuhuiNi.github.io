@@ -5,6 +5,10 @@ title: Projects
 
 ### The University of Chicago
 
+#### [Exploration of External Memory in Variational Auto-Encoder](https://github.com/YuhuiNi/Exploration-of-External-Memory-in-Variational-Auto-Encoder)
+
+- Proposed a VAE based model that has an memory matrix as in VQ-VAE, but with soft and differentiable extraction operation and achieved comparable results with faster convergence rate.
+
 
 #### [Multiple testing and inference problems for Capital Bikeshare data](https://github.com/YuhuiNi/Multiple_testing) 
 
@@ -29,7 +33,7 @@ title: Projects
 
 #### Predicting prices of stocks
 
-- Propose an improved predicting time series model combing support vector machine (SVR) with Kernel principal component analysis (KPCA) based on group Lasso method, which greatly increases the accuracy of predicting prices of stocks.
+- Proposed an improved predicting time series model combing support vector machine (SVR) with Kernel principal component analysis (KPCA) based on group Lasso method, which greatly increases the accuracy of predicting prices of stocks.
 
 
 #### Research on the Implementation of Shanghai-Hong Kong Stock Connect to China Stock Market
